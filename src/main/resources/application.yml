@@ -3,9 +3,9 @@ server:
 
 spring:
   datasource:
-    username: ubvgvfvergruflqk
-    password: FDSl99UuJgTtnsisAtqp
-    url: jdbc:mysql://bwmudlsuvrcglzdi5bw5-mysql.services.clever-cloud.com:3306/bwmudlsuvrcglzdi5bw5?createDatabaseIfNotExist=true&autoReconnect=true&useSSL=false
+    username: root
+    password: Anhdung1302
+    url: jdbc:mysql://localhost:3307/spring_reactjs_jwt?createDatabaseIfNotExist=true&autoReconnect=true&useSSL=false
 
   jpa:
     hibernate:
@@ -15,3 +15,8 @@ spring:
 #      hibernate:
 #        dialect: org.hibernate.dialect.MySQL5Dialect
 #        format_sql: true
+
+
+#    username: ubvgvfvergruflqk
+#    password: FDSl99UuJgTtnsisAtqp
+#    url: jdbc:mysql://bwmudlsuvrcglzdi5bw5-mysql.services.clever-cloud.com:3306/bwmudlsuvrcglzdi5bw5?createDatabaseIfNotExist=true&autoReconnect=true&useSSL=false

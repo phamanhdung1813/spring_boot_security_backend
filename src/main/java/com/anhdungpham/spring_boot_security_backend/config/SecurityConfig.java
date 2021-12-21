@@ -21,7 +21,9 @@ import org.springframework.web.cors.CorsConfiguration;
 import org.springframework.web.cors.CorsConfigurationSource;
 
 import javax.servlet.http.HttpServletRequest;
+import java.util.Arrays;
 import java.util.Collections;
+import java.util.List;
 
 @Configuration
 @EnableGlobalMethodSecurity(prePostEnabled = true)
@@ -63,7 +65,9 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                     @Override
                     public CorsConfiguration getCorsConfiguration(HttpServletRequest request) {
                         CorsConfiguration config = new CorsConfiguration();
-                        config.setAllowedOrigins(Collections.singletonList("*"));
+                        List<String> domain = List.of("http://localhost:3000", "https://localhost:3000",
+                                "http://phamanhdung1813.github.io/ui_spring_reactjs", "https://phamanhdung1813.github.io/ui_spring_reactjs");
+                        config.setAllowedOrigins(domain);
                         config.setAllowedMethods(Collections.singletonList("*"));
                         config.setAllowCredentials(true);
                         config.setAllowedHeaders(Collections.singletonList("*"));

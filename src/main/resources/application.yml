@@ -3,9 +3,10 @@ server:
 
 spring:
   datasource:
-    username: ujkph9f2ajaviepn
-    password: 1U97ZpBnnHPM4ujPjwMl
-    url: jdbc:mysql://bt23zncfkffvszdx02zc-mysql.services.clever-cloud.com:3306/bt23zncfkffvszdx02zc?createDatabaseIfNotExist=true&autoReconnect=true&useSSL=false
+    username: ucsq9oiwgrdgtdlf
+    password: 3qAkwO9aXHzi45zx5Gzh
+    url: jdbc:mysql://bjmdxbdrau4b9bnig6dp-mysql.services.clever-cloud.com:3306/bjmdxbdrau4b9bnig6dp?createDatabaseIfNotExist=true&autoReconnect=true&useSSL=false
+
 
   jpa:
     hibernate:
@@ -16,7 +17,6 @@ spring:
 #        dialect: org.hibernate.dialect.MySQL5Dialect
 #        format_sql: true
 
-
-#    username: ujkph9f2ajaviepn
-#    password: 1U97ZpBnnHPM4ujPjwMl
-#    url: jdbc:mysql://bt23zncfkffvszdx02zc-mysql.services.clever-cloud.com:3306/bt23zncfkffvszdx02zc?createDatabaseIfNotExist=true&autoReconnect=true&useSSL=false
+#  username: root
+#  password: Anhdung1302
+#  url: jdbc:mysql://localhost:3307/spring_reactjs_jwt?createDatabaseIfNotExist=true&autoReconnect=true&useSSL=false

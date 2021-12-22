@@ -66,7 +66,8 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                     public CorsConfiguration getCorsConfiguration(HttpServletRequest request) {
                         CorsConfiguration config = new CorsConfiguration();
                         List<String> domain = List.of("http://localhost:3000", "https://localhost:3000",
-                                "http://phamanhdung1813.github.io/ui_spring_reactjs", "https://phamanhdung1813.github.io/ui_spring_reactjs");
+                                "http://phamanhdung1813.github.io/ui_spring_reactjs", "https://phamanhdung1813.github.io/ui_spring_reactjs",
+                                "http://ui-spring-reactjs.herokuapp.com", "https://ui-spring-reactjs.herokuapp.com");
                         config.setAllowedOrigins(domain);
                         config.setAllowedMethods(Collections.singletonList("*"));
                         config.setAllowCredentials(true);

@@ -3,8 +3,7 @@
 ## https://spring-boot-security-backend.herokuapp.com
 
 # REACTJS UI APPLICATION URL 👇
-## https://ui-spring-reactjs.herokuapp.com/
-
+## https://github.com/phamanhdung1813/ui_spring_reactjs
 
 # LOGIN DEFAULT URL 👇
 ## https://spring-boot-security-backend.herokuapp.com/api/auth/login
